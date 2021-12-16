@@ -96,4 +96,3 @@ SSH into the control node and follow the steps below:
 Copy the filebeat.yaml file to /etc/filebeat
 Update the filebeat.yaml file to include the web server(s) IP.
 Run the playbook, and navigate to the web servers to check that the installation worked as expected.
-# elk
