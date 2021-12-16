@@ -30,12 +30,12 @@ Metricbeat will collect information regarding the services running on the web se
 The configuration details of each machine may be found below.
 
 
-Name                Function                 IP Address       Operating System
-Jump Box            Gateway                  10.0.0.4        	Linux
-ELK Server          Logging                  10.1.0.4        	Linux
-Web Server 1        Web Application          10.0.0.5        	Linux
-Web Server 2        Web Application          10.0.0.7        	Linux
-Web Server 3        Web Application          10.0.0.6        	Linux
+Name                    Function                 IP Address       Operating System
+Jump Box                Gateway                  10.0.0.4        	Linux
+ELK Server              Logging                  10.1.0.4        	Linux
+Web Server 1            Web Application          10.0.0.5        	Linux
+Web Server 2            Web Application          10.0.0.7        	Linux
+Web Server 3            Web Application          10.0.0.6        	Linux
 Access Policies
 The machines on the internal network are not exposed to the public Internet.
 
