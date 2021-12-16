@@ -30,7 +30,7 @@ Metricbeat will collect information regarding the services running on the web se
 The configuration details of each machine may be found below.
 
 
-Name                Function                 IP Address         Operating System
+Name                Function                 IP Address       Operating System
 Jump Box            Gateway                  10.0.0.4        	Linux
 ELK Server          Logging                  10.1.0.4        	Linux
 Web Server 1        Web Application          10.0.0.5        	Linux
@@ -53,10 +53,10 @@ A summary of the access policies in place can be found in the table below.
 
 Name          Publicly Accessible        Allowed IP Addresses
 Jump Box          Yes                    20.70.194.222
-ELK Server        No        		 10.1.0.4
-Web Server 1      No        		 10.0.0.5
+ELK Server        No        		         10.1.0.4
+Web Server 1      No        		         10.0.0.5
 Web Server 2      No                     10.0.0.7
-Web Server 3      No        		 10.0.0.6
+Web Server 3      No        		         10.0.0.6
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because the computers will automatically start running the programs off of the yaml scripts ensuring that there is no program that is not installed or not running.
 
